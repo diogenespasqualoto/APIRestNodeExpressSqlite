@@ -1,5 +1,5 @@
 // import { openDb } from './configDB.js';
-import { createTable, insertPessoa, updatePessoa } from './Controller/Pessoa.js'
+import { createTable, insertPessoa, updatePessoa, selectPessoa, selectPessoas, deletePessoa } from './Controller/Pessoa.js'
 
 import express from 'express';
 const app = express();
@@ -11,12 +11,25 @@ app.get('/', function (req, res) {
     res.send("Hello word");
 })
 
+app.get('/pessoa', async function (req, res) {
+    let pessoa = await selectPessoa(req.body.id);
+    res.json(pessoa);
+})
+
+app.get('/pessoas', async function (req, res) {
+    let pessoas = await selectPessoas();
+    res.json(pessoas);
+})
+
+
 app.post('/pessoa', function (req, res) {
     insertPessoa(req.body)
     res.json({
         "statusCode": 200
     })
 })
+
+
 
 app.put('/pessoa', function (req, res) {
     if (req.body && !req.body.id) {
@@ -32,5 +45,10 @@ app.put('/pessoa', function (req, res) {
     }
 })
 
+
+app.delete('/pessoa', async function (req, res) {
+    let pessoa = await deletePessoa(req.body.id);
+    res.json(pessoa);
+})
 
 app.listen(3000, () => console.log('API rodando'));
