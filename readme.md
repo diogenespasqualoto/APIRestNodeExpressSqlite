@@ -10,7 +10,7 @@
 ## [✔️] - Como instalar e utilizar Sqlite - Node.js + express + Sqlite - Criando API CRUD com Node
  
  
-## [] - Como criar tabela, insert e update - Node js + express + Sqlite - Criando API CRUD com Node
+## [✔️] - Como criar tabela, insert e update - Node js + express + Sqlite - Criando API CRUD com Node
  
  
 ## [] - Implementando PUT, UPDATE e DELETE - Node js + express + Sqlite - Criando API CRUD com Node
