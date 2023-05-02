@@ -1,25 +1,16 @@
-## [✔️] - Como criar projeto node e Hello World- Node js + express + Sqlite - Criando API CRUD com Node
-    
+# API RESTful com Node.js, Express e SQLite
+## Sobre o projeto
 
-## [✔️] - Como funciona o express e Hello world - Node js + express + Sqlite - Criando API CRUD com Node
- 
- 
-## [✔️] - Como trabalhar com Insomnia e método POST - Node + express + Sqlite - Criando API CRUD com Node
- 
- 
-## [✔️] - Como instalar e utilizar Sqlite - Node.js + express + Sqlite - Criando API CRUD com Node
- 
- 
-## [✔️] - Como criar tabela, insert e update - Node js + express + Sqlite - Criando API CRUD com Node
- 
- 
-## [✔️] - Implementando PUT, UPDATE e DELETE - Node js + express + Sqlite - Criando API CRUD com Node
- 
- 
-## [✔️] - Como utilizar Rotas em API Express - Node js + express + Sqlite - Criando API CRUD com Node
- 
- 
-## [✔️] - Como aplicar Https em API Express - Node js + express + Sqlite - Criando API CRUD com Node
+   Este é um projeto de uma API RESTful desenvolvida em Node.js, utilizando o framework Express e o banco de dados SQLite.
+   A API é capaz de realizar operações CRUD (Create, Read, Update e Delete) em uma tabela de usuários armazenada no banco de dados.
+   
+        Funcionalidades
+        
+        A API RESTful contém as seguintes funcionalidades:
 
+       - Listagem de todos os usuários cadastrados na API.
+       - Busca de um usuário específico pelo ID.
+       - Criação de um novo usuário.
+       - Atualização de um ou mais dados de um usuário existente.
+       - Remoção de um usuário específico pelo ID.
 
-## [✔️] Criamos uma API CRUD- Node js + express + Sqlite - Criando API CRUD com Node 
