@@ -22,4 +22,4 @@
 ## [✔️] - Como aplicar Https em API Express - Node js + express + Sqlite - Criando API CRUD com Node
 
 
-## [] Criamos uma API CRUD- Node js + express + Sqlite - Criando API CRUD com Node 
+## [✔️] Criamos uma API CRUD- Node js + express + Sqlite - Criando API CRUD com Node 
