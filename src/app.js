@@ -10,9 +10,9 @@ app.use(cors());
 import router from './routes.js';
 app.use(router);
 
-app.listen(3000, () => console.log('API rodando'));
+app.listen(4000, () => console.log('API rodando'));
 
 https.createServer({
     cert: fs.readFileSync('src/SSL/code.crt'),
     key: fs.readFileSync('src/SSL/code.key'),
-}, app).listen(3001, () => console.log("Rodando https"));
+}, app).listen(4001, () => console.log("Rodando https"));
