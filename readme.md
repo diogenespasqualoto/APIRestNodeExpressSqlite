@@ -16,7 +16,7 @@
 ## [✔️] - Implementando PUT, UPDATE e DELETE - Node js + express + Sqlite - Criando API CRUD com Node
  
  
-## [] - Como utilizar Rotas em API Express - Node js + express + Sqlite - Criando API CRUD com Node
+## [✔️] - Como utilizar Rotas em API Express - Node js + express + Sqlite - Criando API CRUD com Node
  
  
 ## [] - Como aplicar Https em API Express - Node js + express + Sqlite - Criando API CRUD com Node
