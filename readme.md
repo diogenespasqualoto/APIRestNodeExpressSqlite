@@ -1,7 +1,7 @@
 ## [✔️] - Como criar projeto node e Hello World- Node js + express + Sqlite - Criando API CRUD com Node
     
 
-## [] - Como funciona o express e Hello world - Node js + express + Sqlite - Criando API CRUD com Node
+## [✔️] - Como funciona o express e Hello world - Node js + express + Sqlite - Criando API CRUD com Node
  
  
 ## [] - Como trabalhar com Insomnia e método POST - Node + express + Sqlite - Criando API CRUD com Node
