@@ -16,7 +16,4 @@ router.post('/pessoa', insertPessoa);
 router.put('/pessoa', updatePessoa);
 router.delete('/pessoa', deletePessoa);
 
-
-
-
 export default router;
